@@ -1,5 +1,5 @@
-# docker build -t mattes/hello-world-nginx .
-# docker run -p 8090:80 mattes/hello-world-nginx
+# docker build -t test/hello-world-nginx .
+# docker run -p 8090:80 test/hello-world-nginx
 
 FROM ubuntu:14.04
 RUN apt-get update
